@@ -1,0 +1,2 @@
+# yesbeautyspas.com
+This is created for displaying and promoting yesbeautyspas's store. Mainly for customers to have a online platform for viewing service menus and pricing before calling or walking in for appointments.
