@@ -1,0 +1,2 @@
+export const SCHEMA_LINK = "https://stxcloud.com:3000/api/schemaname/yesbeautyspas"
+export const SERVICES_LINK_TEMPLATE = "https://stxcloud.com:3000/api/appointment/services/byservicegroupwithoutlogin/[SCHEMA_NAME]/[year]-[month]-[day]/anyworker"
