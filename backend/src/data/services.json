@@ -1,0 +1,474 @@
+[
+  {
+    "internalName": "Classic Acne",
+    "displayName": "Classic Acne Facial",
+    "categoryName": "Facial",
+    "id": "gqsegfv9mgujxvmu",
+    "price": "188.00",
+    "description": "A deep-cleansing and purifying treatment designed to clear breakouts, reduce inflammation, and prevent future congestion. Includes gentle exfoliation, extractions, and soothing care to calm irritation and restore a clearer, healthier complexion.",
+    "totalDuration": 60,
+    "tags": [
+      "Clarifying",
+      "Detoxifying",
+      "Healing"
+    ],
+    "subCategoryName": "signature"
+  },
+  {
+    "internalName": "Classic Glow",
+    "displayName": "Classic Glow Facial",
+    "categoryName": "Facial",
+    "id": "gqsegfv9mgujwbsj",
+    "price": "168.00",
+    "description": "Gently revitalizes tired, lackluster skin for a fresh and healthy glow. Improves overall clarity and smoothness, leaving the complexion bright and refreshed. ",
+    "totalDuration": 60,
+    "tags": [
+      "Brighten",
+      "Refresh",
+      "Even Skin Tone"
+    ],
+    "subCategoryName": "signature"
+  },
+  {
+    "internalName": "Classic Hydrating",
+    "displayName": "Classic Hydrating Facial ",
+    "categoryName": "Facial",
+    "id": "2jahh9hmgujw1e1",
+    "price": "168.00",
+    "description": "Gently replenishes dry skin with soothing hydration to leave it feeling soft, smooth, and refreshed. This treatment helps restore balance and comfort while giving the skin a healthy, natural glow - perfect for everyday care or a quick pick-me-up.",
+    "totalDuration": 60,
+    "tags": [
+      "Soothing Hydration",
+      "Energy Boost",
+      "Detox"
+    ],
+    "subCategoryName": "signature"
+  },
+  {
+    "internalName": "Classic Purifying",
+    "displayName": "Classic Purifying Facial",
+    "categoryName": "Facial",
+    "id": "201v1geekmgujwnw8",
+    "price": "168.00",
+    "description": "Thoroughly cleanses and detoxifies to clear congestion and refine pores. Leaves the skin feeling clean, balanced, and refreshed with a smooth, healthy-looking finish.",
+    "totalDuration": 60,
+    "tags": [
+      "Deep Cleansing",
+      "Balance",
+      "Renew"
+    ],
+    "subCategoryName": "signature"
+  },
+  {
+    "internalName": "Classic Sensitive",
+    "displayName": "Classic Sensitive Skin Facial",
+    "categoryName": "Facial",
+    "id": "2pwvgdjemgujzjr7",
+    "price": "188.00",
+    "description": "A calming facial designed for delicate, easily irritated skin. Gently cleanses and hydrates while reducing redness and strengthening the skin’s natural barrier. Infused with soothing botanicals and anti-inflammatory ingredients to leave the complexion soft, balanced, and comforted.",
+    "totalDuration": 60,
+    "tags": [
+      "Soothing",
+      "Strengthening",
+      "Restorative"
+    ],
+    "subCategoryName": "signature"
+  },
+  {
+    "internalName": "Lux Acne Repair",
+    "displayName": "Acne Repair Facial",
+    "categoryName": "Facial",
+    "id": "2pwvgdjemguk2wgk",
+    "price": "328.00",
+    "description": "Designed to calm inflamed skin, reduce acne lesions, and fade acne scars. Includes deep cleansing and specialized healing serums to support skin recovery and strengthen its barrier.",
+    "totalDuration": 90,
+    "tags": [
+      "Soothing",
+      "Clarifying",
+      "Scar Recovery"
+    ],
+    "subCategoryName": "luxury",
+    "serviceType": "acne control facial treatment"
+  },
+  {
+    "internalName": "Lux Botox Firming",
+    "displayName": "Bo-tox Firming Facial",
+    "categoryName": "Facial",
+    "id": "2jahh9hmguk2lvj",
+    "price": "338.00",
+    "description": "A luxurious firming treatment that mimics the effects of Bo-tox using peptides to smooth fine lines and enhance skin elasticity. Ideal for those seeking a lifted, more sculpted facial contour without\ninjections.",
+    "totalDuration": 90,
+    "tags": [
+      "Tightening",
+      "Lifting",
+      "Smoothing"
+    ],
+    "subCategoryName": "luxury",
+    "serviceType": "anti-age facial treatment"
+  },
+  {
+    "internalName": "Lux Glacier",
+    "displayName": "Glacier Organic Facial",
+    "categoryName": "Facial",
+    "id": "2pwvgdjemguk0dsg",
+    "price": "228.00",
+    "description": "An organic facial treatment featuring cooling botanical extracts and glacier water to deeply hydrate and soothe the skin. Perfect for sensitive or dry skin seeking calmness and lasting moisture.",
+    "totalDuration": 75,
+    "tags": [
+      "Soothing",
+      "Deep Moisture",
+      "Long-Lasting Hydration"
+    ],
+    "subCategoryName": "luxury",
+    "serviceType": "hydration facial treatment"
+  },
+  {
+    "internalName": "Lux Hyaluronic Acid Hydrating",
+    "displayName": "Hyaluronic Acid Hydrating Facial",
+    "categoryName": "Facial",
+    "id": "2jahh9hmguk00ro",
+    "price": "228.00",
+    "description": "Infuses the skin with high concentrations of hyaluronic acid to lock in moisture, plump up skin, and restore its natural glow. Perfect for dehydrated or tired-looking skin in need of a radiance boost.",
+    "totalDuration": 75,
+    "tags": [
+      "Deep Hydration",
+      "Energy Boost",
+      "Revitalizing"
+    ],
+    "subCategoryName": "luxury",
+    "serviceType": "hydration facial treatment"
+  },
+  {
+    "internalName": "Lux Rapid Red Relief",
+    "displayName": "Rapid Redness Relief Facial",
+    "categoryName": "Facial",
+    "id": "1mtungcvcmguk3r4t",
+    "price": "288.00",
+    "description": "Targets redness, irritation, and skin sensitivity with gentle, soothing ingredients. Strengthens the skin’s natural defenses and restores comfort, making it ideal for rosacea-prone or post-treatment skin.",
+    "totalDuration": 75,
+    "tags": [
+      "Anti-Inflammatory",
+      "Calming",
+      "Strengthens Barrier"
+    ],
+    "subCategoryName": "luxury",
+    "serviceType": "acne control facial treatment"
+  },
+  {
+    "internalName": "Lux Seaweed Detox",
+    "displayName": "Seaweed Detox Facial",
+    "categoryName": "Facial",
+    "id": "gqsegfv9mguk3a81",
+    "price": "288.00",
+    "description": "Harnesses the power of marine botanical to draw out toxins, regulate sebum, and clear congested pores. Helps reduce breakouts, blackheads, and inflammation while restoring skin clarity.",
+    "totalDuration": 75,
+    "tags": [
+      "Purifying",
+      "Oil Control",
+      "Clear Pores"
+    ],
+    "subCategoryName": "luxury",
+    "serviceType": "acne control facial treatment"
+  },
+  {
+    "internalName": "Lux Tri-peptide Collagen",
+    "displayName": "Tri-Peptide Collagen Activation Facial",
+    "categoryName": "Facial",
+    "id": "1mtungcvcmguk26y9",
+    "price": "338.00",
+    "description": "This anti-aging facial uses tri-peptides and collagen-boosting actives to stimulate skin regeneration, improve firmness, and enhance resilience. Especially suitable for mature or sagging\nskin.",
+    "totalDuration": 90,
+    "tags": [
+      "Elasticity",
+      "Firming",
+      "Skin Renewal"
+    ],
+    "subCategoryName": "luxury",
+    "serviceType": "anti-age facial treatment"
+  },
+  {
+    "internalName": "Lux Vit C",
+    "displayName": "Vitamin C Brightening Facial",
+    "categoryName": "Facial",
+    "id": "201v1geekmguk1hrv",
+    "price": "248.00",
+    "description": "Enriched with stabilized vitamin C, this facial targets dullness and uneven skin tone. It helps to brighten, lighten pigmentation, and leave the skin looking luminous, refreshed, and clear.",
+    "totalDuration": 75,
+    "tags": [
+      "Whitening",
+      "Radiance",
+      "Clarity"
+    ],
+    "subCategoryName": "luxury",
+    "serviceType": "brightening facial treatment"
+  },
+  {
+    "internalName": "Chemical Peel",
+    "displayName": "Chemical Peel Facial",
+    "categoryName": "Adv Treatment",
+    "id": "a0Y1H00000D7ScGUAV",
+    "price": "288.00",
+    "description": "A renewing facial that uses professional-grade exfoliating acids to smooth uneven tone, refine pores, and restore clarity. Leaves the skin soft, bright, and refreshed with a luminous, youthful glow.",
+    "totalDuration": 75,
+    "tags": [
+      "Purifying",
+      "Renew",
+      "Collagen-stimulating"
+    ],
+    "subCategoryName": "advanced"
+  },
+  {
+    "internalName": "Crystal Peptide (MTS)",
+    "displayName": "Crystal Peptide Lifting Facial",
+    "categoryName": "Adv Treatment",
+    "id": "1mtungcvcmgukeihg",
+    "price": "388.00",
+    "description": "An advanced rejuvenation treatment powered by #b{SMTS Bio-Crystal Peptide technology}. This luxurious mask infuses skin with potent peptides and moisture-binding ingredients that enhance elasticity, restore volume, and deliver a radiant, glass-skin glow. Ideal for tired, dehydrated, or aging complexions seeking instant lift and luminosity.",
+    "totalDuration": 90,
+    "tags": [
+      "Firming",
+      "Hydrating",
+      "Illuminating"
+    ],
+    "subCategoryName": "advanced"
+  },
+  {
+    "internalName": "Golden Caviar",
+    "displayName": "Golden Caviar Radiance Facial",
+    "categoryName": "Adv Treatment",
+    "id": "2pwvgdjemguka6po",
+    "price": "338.00",
+    "description": "An indulgent anti-aging treatment infused with Biodroga’s Golden Caviar complex, rich in amino\nacids, minerals, and vitamins. This facial deeply nourishes and revitalizes mature or dry skin,\nboosting elasticity and firmness while promoting cell renewal. Skin appears smoother, plumper, and illuminated with a luminous, youthful glow.",
+    "totalDuration": 90,
+    "tags": [
+      "Luxurious",
+      "Firming",
+      "Regenerating"
+    ],
+    "subCategoryName": "advanced"
+  },
+  {
+    "internalName": "Microdermabration",
+    "displayName": "Microdermabration Facial",
+    "categoryName": "Adv Treatment",
+    "id": "a0Y1H00000D7ScHUAV",
+    "price": "488.00",
+    "description": "An advanced resurfacing treatment that gently exfoliates with a fine diamond or crystal tip to\nremove dull surface cells. Improves texture, softens fine lines, and enhances product absorption,\nrevealing a smoother, more radiant complexion with minimal downtime.",
+    "totalDuration": 75,
+    "tags": [
+      "Purifying",
+      "Renew",
+      "Collagen-stimulating"
+    ],
+    "subCategoryName": "advanced"
+  },
+  {
+    "internalName": "Reedle Shot",
+    "displayName": "Reedle Shot Treatment",
+    "categoryName": "Adv Treatment",
+    "id": "2pwvgdjemguks3ku",
+    "price": "338.00",
+    "description": "Upgrade your facial with the Reedle Shot, a revolutionary microchanneling treatment that\nenhances serum penetration, boosts collagen production, and refines skin texture and\ntone. This needle-free innovation creates microscopic channels to stimulate regeneration\nwithout discomfort.",
+    "totalDuration": 90,
+    "tags": [
+      "Skin Renewal",
+      "Collagen Boost",
+      "Enhanced Absorption"
+    ],
+    "subCategoryName": "advanced"
+  },
+  {
+    "internalName": "Slow Age",
+    "displayName": "Slow Age Revitalizing Facial",
+    "categoryName": "Adv Treatment",
+    "id": "gqsegfv9mgukdvd8",
+    "price": "338.00",
+    "description": "A powerful age-defense treatment designed to slow visible signs of aging and protect skin vitality.\nFeaturing Biodroga’s innovative Slow Age Complex with black forest rose extract and plant stem\ncells, this facial enhances cellular renewal, improves elasticity, and strengthens the skin barrier. The\nresult is a rejuvenated, supple complexion that radiates timeless beauty.",
+    "totalDuration": 90,
+    "tags": [
+      "Regenerating",
+      "Smoothing",
+      "Youth-preserving"
+    ],
+    "subCategoryName": "advanced"
+  },
+  {
+    "internalName": "Aromatherapy Head Spa",
+    "displayName": "Aromatherapy Head Spa",
+    "categoryName": "Head Spa",
+    "id": "2jahh9hmgujjglt",
+    "price": "168.00",
+    "description": "Enjoy a head spa infused with personalized essential oils. Combines a moisturizing hair mask,\nscalp steaming, gentle massage, temple release, and neck relaxation to calm your nervous\nsystem and uplift your mood.",
+    "totalDuration": 60,
+    "tags": [
+      "Stress Relief",
+      "Sensory Relaxation",
+      "Mental Clarity"
+    ],
+    "subCategoryName": "head spa"
+  },
+  {
+    "internalName": "Classic Detox",
+    "displayName": "Classic Head Spa Detox",
+    "categoryName": "Head Spa",
+    "id": "a0Y1H00000D7ScIUAV",
+    "price": "138.00",
+    "description": "A revitalizing scalp detox that removes buildup and impurities while relaxing your mind.\nIncludes scalp analysis, exfoliation, deep cleanse, and head massage.",
+    "totalDuration": 60,
+    "tags": [
+      "Scalp Cleansing",
+      "Oil Control",
+      "Mind Relaxation"
+    ],
+    "subCategoryName": "head spa"
+  },
+  {
+    "internalName": "Deep Hydration&Repair",
+    "displayName": "Deep Hydration & Repair Head Spa",
+    "categoryName": "Head Spa",
+    "id": "1mtungcvcmgujj4na",
+    "price": "158.00",
+    "description": "Ideal for dry, flaky, or sensitive scalps. This treatment includes a moisturizing hair mask,\nhydrating serum",
+    "totalDuration": 60,
+    "tags": [
+      "Dry Scalp Relief",
+      "Nourishment",
+      "Shine Boost"
+    ],
+    "subCategoryName": "head spa"
+  },
+  {
+    "internalName": "Scalp&Hair Growth",
+    "displayName": "Scalp Activation & Hair Growth Boost",
+    "categoryName": "Head Spa",
+    "id": "gqsegfv9mgujjyzt",
+    "price": "188.00",
+    "description": "A results-driven treatment using red light therapy, a moisturizing hair mask, massage, and\ngentle stimulation techniques to awaken hair follicles and support healthy hair growth.",
+    "totalDuration": 75,
+    "tags": [
+      "Stimulate Follicles",
+      "Improve Circulation",
+      "Strengthen Roots"
+    ],
+    "subCategoryName": "head spa"
+  },
+  {
+    "internalName": "Signature Botanical Bloom",
+    "displayName": "Signature Botanical Bloom Head Spa + Mini Facial",
+    "categoryName": "Head Spa",
+    "id": "2jahh9hmgujsnbd",
+    "price": "228.00",
+    "description": "Immerse yourself in nature with this gentle and grounding head spa treatment featuring\nselected flowers. Includes:$l{Flower-infused scalp exfoliation,Premium hair mask,Essential oil floral massage,Deep scalp hydration}This sensory experience calms the mind, improves scalp health, and leaves your hair delicately\nscented with nature’s beauty.",
+    "totalDuration": 90,
+    "tags": [
+      "Dry Flowers",
+      "Floral Steam",
+      "Scalp & Soul Rejuvenation"
+    ],
+    "subCategoryName": "head spa"
+  },
+  {
+    "internalName": "Aromatherapy Massage",
+    "displayName": "Aromatherapy Massage",
+    "categoryName": "Massage",
+    "id": "2jahh9hmguixuxm",
+    "price": "148.00",
+    "description": "A gentle massage using personalized essential oil blends to calm the mind, boost\nimmunity, or uplift your mood.",
+    "totalDuration": 60,
+    "tags": [
+      "Sensory Bliss",
+      "Essential Oil Infusion"
+    ],
+    "subCategoryName": "massage"
+  },
+  {
+    "internalName": "Cupping Therapy",
+    "displayName": "Cupping Therapy",
+    "categoryName": "Massage",
+    "id": "gqsegfv9mguj7m5q",
+    "price": "68.00",
+    "description": "Traditional method using cups to increase blood flow and release muscle tension.",
+    "totalDuration": 30,
+    "tags": [
+      "Suction-Based",
+      "Detox",
+      "Pain Relief"
+    ],
+    "subCategoryName": "massage"
+  },
+  {
+    "internalName": "Deep Tissue",
+    "displayName": "Deep Tissue Massage",
+    "categoryName": "Massage",
+    "id": "201v1geekmguiwjl3",
+    "price": "138.00",
+    "description": "Targets deeper layers of muscle and fascia to relieve chronic pain, knots, and stiffness.\nIdeal for active lifestyles or desk fatigue.",
+    "totalDuration": 60,
+    "tags": [
+      "Therapeutic",
+      "Tension Release",
+      "Pain Relief"
+    ],
+    "subCategoryName": "massage"
+  },
+  {
+    "internalName": "Hot Stone Massage",
+    "displayName": "Hot Stone Massage",
+    "categoryName": "Massage",
+    "id": "2pwvgdjemguix778",
+    "price": "148.00",
+    "description": "Heated volcanic stones are used to relax the muscles and balance energy. Excellent for\nthose who love warmth and relaxation.",
+    "totalDuration": 60,
+    "tags": [
+      "Warming",
+      "Soothing",
+      "Circulation Boost"
+    ],
+    "subCategoryName": "massage"
+  },
+  {
+    "internalName": "Swedish",
+    "displayName": "Swedish Relaxation Massage",
+    "categoryName": "Massage",
+    "id": "1mtunf6s8mgsym2mc",
+    "price": "128.00",
+    "description": "A full-body massage using long, flowing strokes to melt away tension and promote total\nrelaxation.",
+    "totalDuration": 60,
+    "tags": [
+      "Gentle",
+      "Calming",
+      "Stress Relief"
+    ],
+    "subCategoryName": "massage"
+  },
+  {
+    "internalName": "Brow Lamination",
+    "displayName": "Brow Lamination",
+    "categoryName": "Lashes & Brows",
+    "id": "1mtungcvcmgullke1",
+    "price": "98.00",
+    "description": "A precision brow treatment that smooths and sets each hair into perfect alignment for a fuller, more\ndefined look. This semi-permanent styling enhances natural shape, adds lift, and creates a polished,\nfeathery finish that lasts for weeks.",
+    "totalDuration": 45,
+    "tags": [
+      "Lifting",
+      "Shaping",
+      "Defining"
+    ],
+    "subCategoryName": "lash&brow"
+  },
+  {
+    "internalName": "Lash Lift",
+    "displayName": "Lash Lift",
+    "categoryName": "Lashes & Brows",
+    "id": "gqsegfv9mgull8aj",
+    "price": "108.00",
+    "description": "Enhance your natural lashes with a gentle lifting treatment that adds lasting curl, length, and\ndefinition—no extensions needed. This low-maintenance beauty boost opens up the eyes and delivers a\nnaturally elegant, wide-awake look for up to 6–8 weeks.",
+    "totalDuration": 60,
+    "tags": [
+      "Curling",
+      "Lifting",
+      "Defining"
+    ],
+    "subCategoryName": "lash&brow"
+  }
+]
