@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     host: true,
-    allowedHosts: ["vite.oldlai.com","0.0.0.0"],
+    allowedHosts: ["vite.oldlai.com", "0.0.0.0"],
     port: 5173,
     strictPort: true,
   },
