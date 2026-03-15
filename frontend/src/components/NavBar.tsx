@@ -1,10 +1,13 @@
 import { Bars3Icon, ChevronDownIcon } from "@heroicons/react/24/solid";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 export default function NavBar() {
   const [hambergerMenuToggle, setHambergerMenuToggle] = useState(false);
+  const navigate = useNavigate();
 
   const handleNavClick = (target: EventTarget & HTMLButtonElement) => {
     console.log(target.ariaLabel);
+    navigate(target.ariaLabel);
   };
 
   const handleHambergerToggleClick = () => {
@@ -79,8 +82,12 @@ export default function NavBar() {
           </ul>
         </div>
       </div>
-      <div className="hidden lg:block">
-        <ul>
+      {/* Desktop view */}
+      <div className="hidden h-full w-full lg:flex">
+        <p className="flex items-center justify-center pl-16 text-lg">
+          YesBeautySpas
+        </p>
+        <ul className={`flex`}>
           {MENU_CATEGORY.map((category) => {
             if (category.subCategory)
               return (
