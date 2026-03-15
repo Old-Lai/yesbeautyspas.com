@@ -7,7 +7,10 @@ export default function NavBar() {
 
   const handleNavClick = (target: EventTarget & HTMLButtonElement) => {
     console.log(target.ariaLabel);
-    navigate(target.ariaLabel);
+    if (target.ariaLabel) {
+      navigate(target.ariaLabel);
+      setHambergerMenuToggle(false);
+    }
   };
 
   const handleHambergerToggleClick = () => {
@@ -20,7 +23,14 @@ export default function NavBar() {
         className={`${hambergerMenuToggle ? "overflow-visible" : "overflow-x-clip"} h-full w-full lg:hidden`}
       >
         <div className="flex w-full items-center justify-between">
-          <p className="flex-1 pl-16 text-lg">YesBeautySpas</p>
+          <p className="flex-1 pl-16 text-lg">
+            <button
+              aria-label="/"
+              onClick={(e) => handleNavClick(e.currentTarget)}
+            >
+              YesBeautySpas
+            </button>
+          </p>
           <button
             className={`${hambergerMenuToggle && "bg-amber-300"} z-30 p-4`}
             onClick={handleHambergerToggleClick}
@@ -85,7 +95,12 @@ export default function NavBar() {
       {/* Desktop view */}
       <div className="hidden h-full w-full lg:flex">
         <p className="flex items-center justify-center pl-16 text-lg">
-          YesBeautySpas
+          <button
+            aria-label="/"
+            onClick={(e) => handleNavClick(e.currentTarget)}
+          >
+            YesBeautySpas
+          </button>
         </p>
         <ul className={`flex`}>
           {MENU_CATEGORY.map((category) => {
