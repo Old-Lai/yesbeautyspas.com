@@ -37,7 +37,6 @@ export default async function (fastify: FastifyInstance) {
     const services = await getServices();
     return services;
   });
-
   fastify.get("/facial", async () => {
     let services = await getServices();
     services = services.filter((service) => {
@@ -45,10 +44,24 @@ export default async function (fastify: FastifyInstance) {
     });
     return services;
   });
-  fastify.get("/advance", async () => {
+  fastify.get("/facial/signature", async () => {
     let services = await getServices();
     services = services.filter((service) => {
-      return service.categoryName == "Adv Treatment";
+      return service.subCategoryName == "signature";
+    });
+    return services;
+  });
+  fastify.get("/facial/advanced", async () => {
+    let services = await getServices();
+    services = services.filter((service) => {
+      return service.subCategoryName == "advanced";
+    });
+    return services;
+  });
+  fastify.get("/facial/luxury", async () => {
+    let services = await getServices();
+    services = services.filter((service) => {
+      return service.subCategoryName == "luxury";
     });
     return services;
   });
