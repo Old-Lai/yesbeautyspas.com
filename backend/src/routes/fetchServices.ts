@@ -126,9 +126,9 @@ export default async function (fastify: FastifyInstance) {
               template.description = component;
               //"ideal for" tags
             } else if (index == 3) {
-              let subComponents = component.split("#").filter((tag) => {
-                tag != "";
-              });
+              let subComponents = component
+                .split("#")
+                .filter((tag) => tag != "");
               if (subComponents.length > 0) template.usageTags = subComponents;
             }
           });
@@ -141,7 +141,7 @@ export default async function (fastify: FastifyInstance) {
       tStamp = getDateTimeStamp().tStamp;
       console.log("---------processing complete--------", tStamp, "PST");
       //write to temp database as textfile
-      services.forEach(async(service) => {
+      services.forEach(async (service) => {
         await addService(service);
       });
 
