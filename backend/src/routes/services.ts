@@ -1,20 +1,10 @@
 import { FastifyInstance } from "fastify";
 // import { SCHEMA_LINK, SERVICES_LINK_TEMPLATE } from "../data/links";
-import {
-  SchemaResponse,
-  DataResponse,
-  GroupsItem,
-  GroupServices,
-  ServiceCategory,
-  ServiceResult,
-  ServiceLevel,
-  CategoryMapping,
-  Service,
-} from "../types/serviceResponseDefinitions";
+import { DataResponse } from "../types/serviceResponseDefinitions";
 import rawdata from "../data/testData.json"; //test Data from previously grabbed data
 const data = rawdata as DataResponse;
 // import to write to mock database ad textfile
-import { addService, getServices } from "../lib/serviceStore";
+import { getServices } from "../lib/serviceStore";
 
 function getDateTimeStamp() {
   const tStamp = new Date().toLocaleString("en-US", {
@@ -37,13 +27,18 @@ export default async function (fastify: FastifyInstance) {
     const services = await getServices();
     return services;
   });
+
   fastify.get("/facial", async () => {
     let services = await getServices();
     services = services.filter((service) => {
-      return service.categoryName == "Facial";
+      return (
+        service.categoryName == "Facial" ||
+        service.categoryName == "Adv Treatment"
+      );
     });
     return services;
   });
+
   fastify.get("/facial/signature", async () => {
     let services = await getServices();
     services = services.filter((service) => {
@@ -51,6 +46,7 @@ export default async function (fastify: FastifyInstance) {
     });
     return services;
   });
+
   fastify.get("/facial/advanced", async () => {
     let services = await getServices();
     services = services.filter((service) => {
@@ -58,6 +54,7 @@ export default async function (fastify: FastifyInstance) {
     });
     return services;
   });
+
   fastify.get("/facial/luxury", async () => {
     let services = await getServices();
     services = services.filter((service) => {
@@ -65,6 +62,7 @@ export default async function (fastify: FastifyInstance) {
     });
     return services;
   });
+
   fastify.get("/head-spa", async () => {
     let services = await getServices();
     services = services.filter((service) => {
@@ -72,6 +70,7 @@ export default async function (fastify: FastifyInstance) {
     });
     return services;
   });
+
   fastify.get("/massage", async () => {
     let services = await getServices();
     services = services.filter((service) => {
@@ -79,6 +78,7 @@ export default async function (fastify: FastifyInstance) {
     });
     return services;
   });
+
   fastify.get("/lash-brows", async () => {
     let services = await getServices();
     services = services.filter((service) => {
