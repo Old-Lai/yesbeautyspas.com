@@ -118,8 +118,8 @@ export interface Service {
   serviceType?: string; // service type like acne control facial in lux facial (from description)
   id: string;
   price: string;
-  tags?: string[]; //from description
+  tags: string[]; //from description
   description: string; //substring of description
-  usageTags?: string[] // from description
+  usageTags: string[]; // from description
   totalDuration: number | null;
 }

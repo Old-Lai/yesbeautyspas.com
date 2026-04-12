@@ -1,5 +1,5 @@
 import { FastifyInstance } from "fastify";
-// import { SCHEMA_LINK, SERVICES_LINK_TEMPLATE } from "../data/links";
+import { SCHEMA_LINK, SERVICES_LINK_TEMPLATE } from "../data/links";
 import {
   SchemaResponse,
   DataResponse,
@@ -32,28 +32,27 @@ function getDateTimeStamp() {
   return { tStamp, month, day, year };
 }
 
-export default async function (fastify: FastifyInstance) {
+export default async function fetchServices(fastify: FastifyInstance) {
   fastify.get("/", async () => {
     try {
       let { tStamp, month, day, year } = getDateTimeStamp();
 
       // uncomment to use actual stx backend
-      /*
-    let response = await fetch(SCHEMA_LINK);
-    const schema_data: SchemaResponse = await response.json();
-    const schemaName = schema_data.result?.SCHEMA_NAME;
 
-    let serviceLink = SERVICES_LINK_TEMPLATE.replace(
-      "[SCHEMA_NAME]",
-      schemaName,
-    )
-      .replace("[year]", year)
-      .replace("[day]", day)
-      .replace("[month]", month);
+      let response = await fetch(SCHEMA_LINK);
+      const schema_data: SchemaResponse = await response.json();
+      const schemaName = schema_data.result?.SCHEMA_NAME;
 
-    response = await fetch(serviceLink);
-    const data = await response.json();
-    */
+      let serviceLink = SERVICES_LINK_TEMPLATE.replace(
+        "[SCHEMA_NAME]",
+        schemaName,
+      )
+        .replace("[year]", year)
+        .replace("[day]", day)
+        .replace("[month]", month);
+
+      response = await fetch(serviceLink);
+      const data = await response.json();
 
       //failed condition
       if (data.message != "General Success") {
@@ -88,7 +87,9 @@ export default async function (fastify: FastifyInstance) {
             categoryName: "",
             id: "",
             price: "",
+            tags: [],
             description: "",
+            usageTags: [],
             totalDuration: null,
           };
 
@@ -101,7 +102,7 @@ export default async function (fastify: FastifyInstance) {
           //grab total duration & price
           let levels__c = JSON.parse(result["Levels__c"])[0];
           template.totalDuration = levels__c["totalDuration"];
-          template.price = levels__c["price"];
+          template.price = levels__c["price"].split(".")[0];
 
           //grab & seperate values from Description__c
           let description__c = result["Description__c"];
@@ -124,7 +125,7 @@ export default async function (fastify: FastifyInstance) {
               //description
             } else if (index == 2) {
               template.description = component;
-              //"ideal for" tags
+              //"ideal for"--usage tags
             } else if (index == 3) {
               let subComponents = component
                 .split("#")
